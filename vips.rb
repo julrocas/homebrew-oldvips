@@ -6,8 +6,8 @@ class Vips < Formula
   sha256 'a04f15f57b5560daa4498bd8a57e0cd7bb3354affbe11ce3e8b445b83b85f29a'
 
   depends_on 'pkg-config' => :build
-  depends_on :libpng
-  depends_on :fontconfig
+  depends_on 'libpng'
+  depends_on 'fontconfig'
   depends_on 'gettext'
   depends_on 'glib'
   depends_on 'openslide' => :optional
